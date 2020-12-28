@@ -1,0 +1,127 @@
+body {
+  background-color: rgb(248, 246, 240);
+  padding-bottom:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+  padding-left:0px;
+  margin-right:0px;
+  padding-right:0px;
+}
+:root {
+  --nav-width: 200px;
+}
+#navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: var(--nav-width);
+  background-color: #edebdf;
+  z-index: 1;
+  height: 100%;  
+}
+#nav-list,
+.nav-link {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  color: black;
+  font-size:20px;
+  font-weight:bolder;
+}
+li {
+  text-decoration: none;
+}
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+}
+@media only screen and (max-width: 500px) {
+  #navbar {
+    position:fixed;
+    top:0;
+    left:0;
+    max-width:100%;
+  }
+}
+#logo {
+  width: 500px;
+}
+.nav-link:hover {
+  background-color: rgb(0, 100, 200);
+  color: white;
+}
+#main-doc {
+  margin-left: var(--nav-width);
+  margin-top: 20px;
+  padding-left:10px;
+  
+  max-width: 100%;
+}
+.main-section{
+  padding-right:10px;
+}
+footer {
+  background-color: #ecc100;
+  bottom: 0px;
+  max-width: 100%;
+  padding-left: 200px;
+  text-align:center;
+  height:auto;
+  text-decoration: none;
+       }
+.pagefooter-maxwidth{
+  padding-bottom:1px;
+  padding-top:5px;
+  margin-bottom:0px;
+  text-decoration: none;
+   }
+#imgnav {
+  width: 200px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: auto;
+  z-index: 1;
+}
+#stone{
+  font-weight:normal;
+}
+#title{
+  text-align:center;
+  font-family:Cursive;
+   background-image: linear-gradient(to right, white ,  #3474ff,white);
+}
+.headsec{
+  font-size: 25px;
+  color:#ecc100;
+  font-weight: bold;
+}
+.footer-legals {
+  display:flex;
+  flex-direction:row;
+  list-style:none;
+  text-decoration: none;
+  justify-content: center;
+  justify-content: space-around;
+  }
+
+hr {
+  border: none;
+  border-bottom: 2px solid #ecc100; 
+}
+.foothelp{
+  text-decoration: none;  
+}
+.contact-img:hover{
+  width:30px;
+  height: 30px;
+}
+
+
